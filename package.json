@@ -1,0 +1,16 @@
+{
+  "name": "moviebuff-api",
+  "version": "1.0.0",
+  "description": "Express REST APIs for the MovieBuff Progressive Web Application (PWA)",
+  "main": "index.js",
+  "repository": "https://github.com/RajaPradhan/moviebuff-api.git",
+  "author": "RajaPradhan <rajapradhan08@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2"
+  }
+}
