@@ -6,11 +6,17 @@
   "repository": "https://github.com/RajaPradhan/moviebuff-api.git",
   "author": "RajaPradhan <rajapradhan08@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
   "dependencies": {
+    "axios": "^0.16.2",
     "body-parser": "^1.18.1",
     "express": "^4.15.4",
     "lodash": "^4.17.4",
     "mongoose": "^4.11.12",
-    "morgan": "^1.8.2"
+    "morgan": "^1.8.2",
+    "nodemon": "^1.12.1"
   }
 }
