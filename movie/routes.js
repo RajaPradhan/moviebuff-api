@@ -3,42 +3,42 @@ const movieControllers = require('./movieControllers');
 
 module.exports = app => {
   app.get(
-    '/movies/now-playing',
+    '/api/v1/movies/now-playing',
     movieControllers.getNowPlayingMovies
   );
 
   app.get(
-    '/movies/popular',
+    '/api/v1/movies/popular',
     movieControllers.getPopularMovies
   );
 
   app.get(
-    '/movies/top-rated',
+    '/api/v1/movies/top-rated',
     movieControllers.getTopRatedMovies
   );
 
   app.get(
-    '/movies/upcoming',
+    '/api/v1/movies/upcoming',
     movieControllers.getUpcomingMovies
   );
 
   app.get(
-    '/movies/search',
+    '/api/v1/movies/search',
     movieControllers.getSearchResult
   );
 
   app.get(
-    '/movies/genres',
+    '/api/v1/movies/genres',
     movieControllers.getMovieGenres
   );
 
   app.get(
-    '/movies/refine',
+    '/api/v1/movies/refine',
     movieControllers.refineMovies
   );
 
   app.get(
-    '/movies/:id',
+    '/api/v1/movies/:id',
     movieControllers.getMovieDetails
   );
 };
