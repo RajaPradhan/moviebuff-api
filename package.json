@@ -6,6 +6,9 @@
   "repository": "https://github.com/RajaPradhan/moviebuff-api.git",
   "author": "RajaPradhan <rajapradhan08@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "8.5.0"
+  },
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
